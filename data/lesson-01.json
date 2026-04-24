@@ -1,0 +1,202 @@
+{
+  "id": "lesson-01",
+  "title": "Hán 1 Bài 8 : 买东西",
+  "titleVi": "Mua sắm & Chợ",
+  "level": "HSK 1",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng cơ bản về mua sắm tại chợ hoặc cửa hàng ở Trung Quốc. Bao gồm các loại hoa quả, đơn vị tiền tệ và các cụm từ giao tiếp khi mua bán.",
+  "introCN": "在本课中，你将学习在中国市场或商店购物的基本词汇，包括水果种类、货币单位和购物交流用语。",
+ "vocab": [
+  {
+    "word": "水果",
+    "ipa": "shuǐguǒ",
+    "meaning": "hoa quả",
+    "example": "你想买什么_水果_？",
+    "examplePinyin": "Nǐ xiǎng mǎi shénme shuǐguǒ?",
+    "exampleVi": "Bạn muốn mua loại hoa quả nào?"
+  },
+  {
+    "word": "果",
+    "ipa": "guǒ",
+    "meaning": "quả",
+    "example": "这个苹_果_很甜。",
+    "examplePinyin": "Zhège píngguǒ hěn tián.",
+    "exampleVi": "Quả táo này rất ngọt."
+  },
+  {
+    "word": "买",
+    "ipa": "mǎi",
+    "meaning": "mua",
+    "example": "我要_买_苹果。",
+    "examplePinyin": "Wǒ yào mǎi píngguǒ.",
+    "exampleVi": "Tôi muốn mua táo."
+  },
+  {
+    "word": "卖",
+    "ipa": "mài",
+    "meaning": "bán",
+    "example": "这里不_卖_水果。",
+    "examplePinyin": "Zhèlǐ bú mài shuǐguǒ.",
+    "exampleVi": "Ở đây không bán hoa quả."
+  },
+  {
+    "word": "苹果",
+    "ipa": "píngguǒ",
+    "meaning": "táo",
+    "example": "一斤_苹果_多少钱？",
+    "examplePinyin": "Yì jīn píngguǒ duōshao qián?",
+    "exampleVi": "Một cân táo bao nhiêu tiền?"
+  },
+  {
+    "word": "斤",
+    "ipa": "jīn",
+    "meaning": "cân (Trung Quốc) = 1/2kg",
+    "example": "我要买两_斤_。",
+    "examplePinyin": "Wǒ yào mǎi liǎng jīn.",
+    "exampleVi": "Tôi muốn mua hai cân."
+  },
+  {
+    "word": "公斤",
+    "ipa": "gōngjīn",
+    "meaning": "kg = 2 cân (Trung Quốc)",
+    "example": "一_公斤_是两斤。",
+    "examplePinyin": "Yì gōngjīn shì liǎng jīn.",
+    "exampleVi": "Một kilogram bằng hai cân."
+  },
+  {
+    "word": "多少",
+    "ipa": "duōshao",
+    "meaning": "bao nhiêu",
+    "example": "_多少_钱？",
+    "examplePinyin": "Duōshao qián?",
+    "exampleVi": "Bao nhiêu tiền?"
+  },
+  {
+    "word": "多",
+    "ipa": "duō",
+    "meaning": "nhiều",
+    "example": "这里有很_多_人。",
+    "examplePinyin": "Zhèlǐ yǒu hěn duō rén.",
+    "exampleVi": "Ở đây có rất nhiều người."
+  },
+  {
+    "word": "少",
+    "ipa": "shǎo",
+    "meaning": "ít",
+    "example": "太_少_了。",
+    "examplePinyin": "Tài shǎo le.",
+    "exampleVi": "Ít quá rồi."
+  },
+  {
+    "word": "块",
+    "ipa": "kuài",
+    "meaning": "Đồng (tệ)",
+    "example": "五_块_钱。",
+    "examplePinyin": "Wǔ kuài qián.",
+    "exampleVi": "Năm đồng tệ."
+  },
+  {
+    "word": "元",
+    "ipa": "yuán",
+    "meaning": "tệ",
+    "example": "十_元_人民币。",
+    "examplePinyin": "Shí yuán rénmínbì.",
+    "exampleVi": "Mười nhân dân tệ."
+  },
+  {
+    "word": "毛",
+    "ipa": "máo",
+    "meaning": "hào",
+    "example": "五_毛_钱。",
+    "examplePinyin": "Wǔ máo qián.",
+    "exampleVi": "Năm hào."
+  },
+  {
+    "word": "角",
+    "ipa": "jiǎo",
+    "meaning": "hào",
+    "example": "一_角_。",
+    "examplePinyin": "Yì jiǎo.",
+    "exampleVi": "Một hào."
+  },
+  {
+    "word": "分",
+    "ipa": "fēn",
+    "meaning": "phân, xu",
+    "example": "两_分_钱。",
+    "examplePinyin": "Liǎng fēn qián.",
+    "exampleVi": "Hai xu."
+  },
+  {
+    "word": "盾",
+    "ipa": "dùn",
+    "meaning": "đồng (tiền), VNĐ",
+    "example": "一万_盾_。",
+    "examplePinyin": "Yí wàn dùn.",
+    "exampleVi": "Một vạn đồng."
+  },
+  {
+    "word": "贵",
+    "ipa": "guì",
+    "meaning": "đắt",
+    "example": "太_贵_了！",
+    "examplePinyin": "Tài guì le!",
+    "exampleVi": "Đắt quá rồi!"
+  },
+  {
+    "word": "便宜",
+    "ipa": "piányi",
+    "meaning": "Rẻ",
+    "example": "再_便宜_一点儿吧。",
+    "examplePinyin": "Zài piányi yìdiǎnr ba.",
+    "exampleVi": "Rẻ thêm một chút đi."
+  },
+  {
+    "word": "了",
+    "ipa": "le",
+    "meaning": "trợ từ ngữ khí",
+    "example": "太好_了_。",
+    "examplePinyin": "Tài hǎo le.",
+    "exampleVi": "Tốt quá rồi."
+  },
+  {
+    "word": "吧",
+    "ipa": "ba",
+    "meaning": "trợ từ dùng ở cuối câu",
+    "example": "走_吧_。",
+    "examplePinyin": "Zǒu ba.",
+    "exampleVi": "Đi thôi."
+  },
+  {
+    "word": "给",
+    "ipa": "gěi",
+    "meaning": "cho, lấy cho",
+    "example": "_给_您钱。",
+    "examplePinyin": "Gěi nín qián.",
+    "exampleVi": "Đưa tiền cho bạn."
+  },
+  {
+    "word": "一共",
+    "ipa": "yí gòng",
+    "meaning": "tất cả, tổng cộng",
+    "example": "_一共_多少钱？",
+    "examplePinyin": "Yí gòng duōshao qián?",
+    "exampleVi": "Tổng cộng bao nhiêu tiền?"
+  },
+  {
+    "word": "找",
+    "ipa": "zhǎo",
+    "meaning": "trả lại (tiền lẻ)",
+    "example": "_找_您三块。",
+    "examplePinyin": "Zhǎo nín sān kuài.",
+    "exampleVi": "Trả lại bạn 3 đồng."
+  },
+  {
+    "word": "半",
+    "ipa": "bàn",
+    "meaning": "một nửa",
+    "example": "一斤_半_。",
+    "examplePinyin": "Yì jīn bàn.",
+    "exampleVi": "Một cân rưỡi."
+  }
+   ]
+  }

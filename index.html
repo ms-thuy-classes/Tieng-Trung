@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉语学习 — Tiếng Trung cùng Ms.Thúy</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --pp: #e879f9;
+  --pb: #818cf8;
+  --pg: #34d399;
+  --po: #fb923c;
+  --pk: #f472b6;
+  --py: #facc15;
+  --bg: #faf8ff;
+  --card: #ffffff;
+  --text: #1e1b2e;
+  --muted: #7c7a8e;
+  --border: rgba(139,92,246,0.12);
+  --glow: rgba(232,121,249,0.15);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ─── Background mesh ─── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 800px 600px at 10% 10%, rgba(232,121,249,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 500px at 90% 20%, rgba(129,140,248,0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 700px 500px at 50% 90%, rgba(52,211,153,0.07) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ─── Header ─── */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(20px) saturate(1.8);
+  background: rgba(250,248,255,0.85);
+  border-bottom: 1px solid var(--border);
+  padding: 0 clamp(16px, 5vw, 60px);
+}
+
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e879f9, #818cf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  box-shadow: 0 4px 20px rgba(232,121,249,0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover .logo-icon {
+  transform: rotate(-8deg) scale(1.08);
+  box-shadow: 0 8px 32px rgba(232,121,249,0.5);
+}
+
+.logo-text {
+  font-family: 'Playfair Display', 'Noto Serif SC', serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #c026d3, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+.logo-sub {
+  font-size: 0.62rem;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  display: block;
+  -webkit-text-fill-color: var(--muted);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-wrap {
+  position: relative;
+}
+
+.search-wrap svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+#searchInput {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 9px 16px 9px 36px;
+  border-radius: 50px;
+  border: 1.5px solid rgba(139,92,246,0.2);
+  background: rgba(237,233,254,0.5);
+  color: var(--text);
+  width: 220px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+#searchInput:focus {
+  border-color: rgba(192,38,211,0.4);
+  background: white;
+  box-shadow: 0 0 0 4px rgba(192,38,211,0.08);
+  width: 260px;
+}
+
+#searchInput::placeholder { color: var(--muted); }
+
+/* ─── Hero ─── */
+.hero {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: clamp(48px, 8vw, 96px) clamp(16px, 5vw, 60px) clamp(32px, 6vw, 64px);
+  z-index: 1;
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(232,121,249,0.15), rgba(129,140,248,0.15));
+  border: 1px solid rgba(192,38,211,0.2);
+  border-radius: 50px;
+  padding: 5px 14px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #9333ea;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+  animation: fadeDown 0.6s ease both;
+}
+
+.hero-badge .dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #e879f9;
+  box-shadow: 0 0 8px #e879f9;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(0.8); }
+}
+
+.hero-title {
+  font-family: 'Playfair Display', 'Noto Serif SC', serif;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  font-weight: 900;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  animation: fadeDown 0.7s 0.1s ease both;
+}
+
+.hero-title .accent {
+  background: linear-gradient(135deg, #c026d3 0%, #7c3aed 40%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.hero-cn {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  color: rgba(124,58,237,0.5);
+  font-weight: 700;
+  margin-top: 6px;
+  animation: fadeDown 0.7s 0.2s ease both;
+  letter-spacing: 0.15em;
+}
+
+.hero-desc {
+  font-size: 1rem;
+  color: var(--muted);
+  font-weight: 400;
+  max-width: 520px;
+  margin: 16px auto 0;
+  line-height: 1.7;
+  animation: fadeDown 0.7s 0.3s ease both;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: clamp(24px, 5vw, 56px);
+  margin-top: 36px;
+  animation: fadeDown 0.7s 0.4s ease both;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #c026d3, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* ─── Filter tabs ─── */
+.filter-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 5vw, 60px);
+  position: relative;
+  z-index: 1;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filter-tab {
+  padding: 7px 18px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: 'DM Sans', sans-serif;
+  background: white;
+  color: var(--muted);
+  border-color: rgba(0,0,0,0.08);
+}
+
+.filter-tab:hover {
+  border-color: rgba(192,38,211,0.3);
+  color: #9333ea;
+}
+
+.filter-tab.active {
+  background: linear-gradient(135deg, #f5d0fe, #e0e7ff);
+  border-color: rgba(192,38,211,0.3);
+  color: #7c3aed;
+}
+
+/* ─── Grid ─── */
+.lessons-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 5vw, 60px) 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Card ─── */
+.lesson-card {
+  background: var(--card);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease, border-color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  display: block;
+  animation: cardIn 0.5s ease both;
+  transform-style: preserve-3d;
+}
+
+.lesson-card:hover {
+  transform: translateY(-8px) scale(1.015);
+  box-shadow: 0 32px 64px rgba(139,92,246,0.15), 0 8px 24px rgba(0,0,0,0.06);
+  border-color: rgba(192,38,211,0.25);
+}
+
+.lesson-card:active { transform: scale(0.98); }
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-header {
+  position: relative;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-header-bg {
+  position: absolute;
+  inset: 0;
+  transition: transform 0.5s ease;
+}
+
+.lesson-card:hover .card-header-bg { transform: scale(1.06); }
+
+.card-emoji {
+  position: relative;
+  font-size: 3.5rem;
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.15));
+  transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1);
+  z-index: 2;
+}
+
+.lesson-card:hover .card-emoji { transform: scale(1.15) rotate(-5deg); }
+
+.card-level-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
+  letter-spacing: 0.04em;
+}
+
+.card-body {
+  padding: 22px 24px 20px;
+}
+
+.card-title-cn {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
+
+.card-title-vi {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(237,233,254,0.8);
+  color: #7c3aed;
+  letter-spacing: 0.02em;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.card-meta {
+  display: flex;
+  gap: 14px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.card-arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f5d0fe, #e0e7ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.lesson-card:hover .card-arrow {
+  background: linear-gradient(135deg, #c026d3, #7c3aed);
+  transform: translateX(3px);
+  box-shadow: 0 4px 16px rgba(124,58,237,0.35);
+}
+
+.lesson-card:hover .card-arrow svg { color: white; }
+
+.card-arrow svg {
+  width: 16px;
+  height: 16px;
+  color: #7c3aed;
+  transition: color 0.3s;
+}
+
+/* ─── Empty state ─── */
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--muted);
+}
+
+.empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+.empty-state p { font-size: 1rem; font-weight: 500; }
+
+/* ─── Footer ─── */
+footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 32px 20px;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* ─── Animations ─── */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Floating orbs decoration ─── */
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  animation: orbFloat 12s ease-in-out infinite;
+}
+
+.orb-1 { width: 400px; height: 400px; background: rgba(232,121,249,0.06); top: -100px; right: -100px; animation-delay: 0s; }
+.orb-2 { width: 300px; height: 300px; background: rgba(129,140,248,0.07); bottom: 20%; left: -80px; animation-delay: 4s; }
+.orb-3 { width: 250px; height: 250px; background: rgba(52,211,153,0.06); top: 40%; right: 5%; animation-delay: 8s; }
+
+@keyframes orbFloat {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(30px) scale(1.05); }
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 640px) {
+  .hero-stats { gap: 20px; }
+  .stat-num { font-size: 1.4rem; }
+  #searchInput { width: 160px; }
+  #searchInput:focus { width: 180px; }
+  .lessons-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- Header -->
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">✦</div>
+      <div>
+        <span class="logo-text">Ms.Thúy 汉语</span>
+        <span class="logo-sub">HỌC TIẾNG TRUNG THÔNG MINH</span>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input id="searchInput" type="text" placeholder="Tìm bài học..." oninput="filterCards()">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-badge"><span class="dot"></span> Cập nhật tháng 4 · 2025</div>
+  <h1 class="hero-title">Học <span class="accent">Tiếng Trung</span><br>theo từng chủ đề</h1>
+  <p class="hero-cn">用主题学习中文词汇</p>
+  <p class="hero-desc">Mỗi bài học được thiết kế bài bản với flashcard, trò chơi tương tác và hội thoại thực tế.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">6+</div><div class="stat-label">Bài học</div></div>
+    <div class="stat"><div class="stat-num">150+</div><div class="stat-label">Từ vựng</div></div>
+    <div class="stat"><div class="stat-num">5</div><div class="stat-label">Trò chơi</div></div>
+    <div class="stat"><div class="stat-num">HSK 1–3</div><div class="stat-label">Cấp độ</div></div>
+  </div>
+</section>
+
+<!-- Filter -->
+<div class="filter-section">
+  <div class="filter-tabs" id="filterTabs">
+    <button class="filter-tab active" data-filter="all" onclick="setFilter(this,'all')">🏠 Tất cả</button>
+    <button class="filter-tab" data-filter="HSK 1" onclick="setFilter(this,'HSK 1')">🟢 HSK 1</button>
+    <button class="filter-tab" data-filter="HSK 2" onclick="setFilter(this,'HSK 2')">🔵 HSK 2</button>
+    <button class="filter-tab" data-filter="HSK 3" onclick="setFilter(this,'HSK 3')">🟡 HSK 3</button>
+  </div>
+</div>
+
+<!-- Cards grid -->
+<div class="lessons-grid" id="lessonsGrid">
+  <div class="empty-state" id="loadingState">
+    <div class="icon">⏳</div>
+    <p>Đang tải bài học...</p>
+  </div>
+</div>
+
+<footer>
+  <p>✦ Tiếng Trung cùng Ms.Thúy · 汉语学习 · 2025</p>
+</footer>
+
+<script>
+let allArticles = [];
+let activeFilter = 'all';
+let searchQuery = '';
+
+async function loadArticles() {
+  try {
+    const res = await fetch('data/articles.json');
+    allArticles = await res.json();
+    renderCards();
+  } catch(e) {
+    document.getElementById('loadingState').innerHTML = '<div class="icon">⚠️</div><p>Không thể tải bài học. Hãy chạy qua server.</p>';
+  }
+}
+
+function setFilter(el, filter) {
+  activeFilter = filter;
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  renderCards();
+}
+
+function filterCards() {
+  searchQuery = document.getElementById('searchInput').value.toLowerCase();
+  renderCards();
+}
+
+function renderCards() {
+  const grid = document.getElementById('lessonsGrid');
+  const filtered = allArticles.filter(a => {
+    const matchLevel = activeFilter === 'all' || a.level === activeFilter;
+    const q = searchQuery;
+    const matchSearch = !q || a.title.toLowerCase().includes(q) || a.titleCN.includes(q) || a.description.toLowerCase().includes(q) || a.tags.some(t => t.includes(q));
+    return matchLevel && matchSearch;
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty-state"><div class="icon">🔍</div><p>Không tìm thấy bài học phù hợp.</p></div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map((a, i) => `
+    <a class="lesson-card" href="lesson.html?id=${a.id}" style="animation-delay:${i*0.08}s">
+      <div class="card-header">
+        <div class="card-header-bg" style="background:${a.gradient}"></div>
+        <div class="card-emoji">${a.image}</div>
+        <div class="card-level-badge" style="color:${a.levelColor === '#86efac' ? '#166534' : a.levelColor === '#93c5fd' ? '#1e40af' : '#92400e'}">${a.level}</div>
+      </div>
+      <div class="card-body">
+        <div class="card-title-cn">${a.titleCN}</div>
+        <div class="card-title-vi">${a.title}</div>
+        <p class="card-desc">${a.description}</p>
+        <div class="card-tags">${a.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <span class="meta-item">📚 ${a.wordCount} từ</span>
+            <span class="meta-item">⏱ ${a.duration}</span>
+            <span class="meta-item">👥 ${a.students}</span>
+          </div>
+          <div class="card-arrow">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+  `).join('');
+}
+
+loadArticles();
+</script>
+</body>
+</html>
