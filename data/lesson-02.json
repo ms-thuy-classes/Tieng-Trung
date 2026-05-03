@@ -1,0 +1,194 @@
+{
+  "id": "lesson-02",
+  "title": "Hán 1 Bài 3 : 明天见 ",
+  "titleVi": "Ngày mai gặp lại",
+  "level": "HSK 1",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng cơ bản về ngôn ngữ Trung Quốc và cách sử dụng trong giao tiếp hàng ngày.",
+  "introCN": "在本课中，你将学习中文的基本词汇和日常交流用法。",
+ "vocab": [
+  {
+      "word": "学",
+      "ipa": "xué",
+      "meaning": "học",
+      "example": "我_学_中文。",
+      "examplePinyin": "Wǒ xué zhōngwén.",
+      "exampleVi": "Tôi học tiếng Trung."
+    },
+    {
+      "word": "英语",
+      "ipa": "yīngyǔ",
+      "meaning": "tiếng Anh",
+      "example": "他的_英语_很好。",
+      "examplePinyin": "Tā de yīngyǔ hěn hǎo.",
+      "exampleVi": "Tiếng Anh của anh ấy rất tốt."
+    },
+    {
+      "word": "阿拉伯语",
+      "ipa": "ālābó yǔ",
+      "meaning": "tiếng Ả Rập",
+      "example": "我学_阿拉伯语_。",
+      "examplePinyin": "Wǒ xué ālābó yǔ.",
+      "exampleVi": "Tôi học tiếng Ả Rập."
+    },
+    {
+      "word": "德语",
+      "ipa": "déyǔ",
+      "meaning": "tiếng Đức",
+      "example": "她_德语_很好。",
+      "examplePinyin": "Tā déyǔ hěn hǎo.",
+      "exampleVi": "Tiếng Đức của cô ấy rất tốt."
+    },
+    {
+      "word": "俄语",
+      "ipa": "éyǔ",
+      "meaning": "tiếng Nga",
+      "example": "我会一点_俄语_。",
+      "examplePinyin": "Wǒ huì yīdiǎn éyǔ.",
+      "exampleVi": "Tôi biết một chút tiếng Nga."
+    },
+    {
+      "word": "法语",
+      "ipa": "fǎyǔ",
+      "meaning": "tiếng Pháp",
+      "example": "你说_法语_吗？",
+      "examplePinyin": "Nǐ shuō fǎyǔ ma?",
+      "exampleVi": "Bạn nói tiếng Pháp không?"
+    },
+    {
+      "word": "韩国语",
+      "ipa": "hánguóyǔ",
+      "meaning": "tiếng Hàn",
+      "example": "妈妈会_韩国语_。",
+      "examplePinyin": "Māma huì hánguóyǔ.",
+      "exampleVi": "Mẹ biết tiếng Hàn."
+    },
+    {
+      "word": "日语",
+      "ipa": "rìyǔ",
+      "meaning": "tiếng Nhật",
+      "example": "我朋友_日语_好。",
+      "examplePinyin": "Wǒ péngyou rìyǔ hǎo.",
+      "exampleVi": "Bạn tôi tiếng Nhật tốt."
+    },
+    {
+      "word": "西班牙语",
+      "ipa": "xībānyáyǔ",
+      "meaning": "tiếng Tây Ban Nha",
+      "example": "哥哥学_西班牙语_。",
+      "examplePinyin": "Gēge xué xībānyáyǔ.",
+      "exampleVi": "Anh trai học tiếng Tây Ban Nha."
+    },
+    {
+      "word": "对",
+      "ipa": "duì",
+      "meaning": "đúng, được",
+      "example": "你_对_了。",
+      "examplePinyin": "Nǐ duì le.",
+      "exampleVi": "Bạn đúng rồi."
+    },
+    {
+      "word": "明天",
+      "ipa": "míngtiān",
+      "meaning": "ngày mai",
+      "example": "_明天_见。",
+      "examplePinyin": "Míngtiān jiàn.",
+      "exampleVi": "Ngày mai gặp."
+    },
+    {
+      "word": "见",
+      "ipa": "jiàn",
+      "meaning": "gặp, thấy",
+      "example": "我_见_你。",
+      "examplePinyin": "Wǒ jiàn nǐ.",
+      "exampleVi": "Tôi gặp bạn."
+    },
+    {
+      "word": "去",
+      "ipa": "qù",
+      "meaning": "đi, đến",
+      "example": "我_去_学校。",
+      "examplePinyin": "Wǒ qù xuéxiào.",
+      "exampleVi": "Tôi đi trường."
+    },
+    {
+      "word": "邮局",
+      "ipa": "yóu jú",
+      "meaning": "bưu điện",
+      "example": "我去_邮局_。",
+      "examplePinyin": "Wǒ qù yóujú.",
+      "exampleVi": "Tôi đi bưu điện."
+    },
+    {
+      "word": "寄",
+      "ipa": "jì",
+      "meaning": "gửi",
+      "example": "我_寄_信。",
+      "examplePinyin": "Wǒ jì xìn.",
+      "exampleVi": "Tôi gửi thư."
+    },
+    {
+      "word": "信",
+      "ipa": "xìn",
+      "meaning": "thư",
+      "example": "这是_信_。",
+      "examplePinyin": "Zhè shì xìn.",
+      "exampleVi": "Đây là thư."
+    },
+    {
+      "word": "银行",
+      "ipa": "yínháng",
+      "meaning": "ngân hàng",
+      "example": "妈妈去_银行_。",
+      "examplePinyin": "Māma qù yínháng.",
+      "exampleVi": "Mẹ đi ngân hàng."
+    },
+    {
+      "word": "取",
+      "ipa": "qǔ",
+      "meaning": "rút (tiền)",
+      "example": "我_取_钱。",
+      "examplePinyin": "Wǒ qǔ qián.",
+      "exampleVi": "Tôi rút tiền."
+    },
+    {
+      "word": "钱",
+      "ipa": "qián",
+      "meaning": "tiền",
+      "example": "我没有_钱_。",
+      "examplePinyin": "Wǒ méiyǒu qián.",
+      "exampleVi": "Tôi không có tiền."
+    },
+    {
+      "word": "六",
+      "ipa": "liù",
+      "meaning": "số 6",
+      "example": "爸爸_六_十岁。",
+      "examplePinyin": "Bàba liù shí suì.",
+      "exampleVi": "Bố 60 tuổi."
+    },
+    {
+      "word": "七",
+      "ipa": "qī",
+      "meaning": "số 7",
+      "example": "现在是_七_点。",
+      "examplePinyin": "Xiànzài shì qī diǎn.",
+      "exampleVi": "Bây giờ là 7 giờ."
+    },
+    {
+      "word": "九",
+      "ipa": "jiǔ",
+      "meaning": "số 9",
+      "example": "我_九_岁。",
+      "examplePinyin": "Wǒ jiǔ suì.",
+      "exampleVi": "Tôi 9 tuổi."
+    },
+    {
+      "word": "北京",
+      "ipa": "běijīng",
+      "meaning": "Bắc Kinh",
+      "example": "我爱_北京_。",
+      "examplePinyin": "Wǒ ài Běijīng.",
+      "exampleVi": "Tôi yêu Bắc Kinh."
+    }
+  ]
+}
