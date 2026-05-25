@@ -1,0 +1,202 @@
+{
+  "id": "lesson-03",
+  "title": "Hán 1 Bài 4 : 今天星期几",
+  "titleVi": "Hôm nay là thứ mấy",
+  "level": "HSK 1",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng cơ bản về thời gian, ngày tháng và cách giao tiếp hàng ngày.",
+  "introCN": "在本课中，你将学习关于时间、日期和日常交流的基本词汇。",
+  "vocab": [
+    {
+      "word": "今天",
+      "ipa": "jīntiān",
+      "meaning": "hôm nay",
+      "example": "_今天_星期一。",
+      "examplePinyin": "Jīntiān xīngqīyī.",
+      "exampleVi": "Hôm nay là thứ hai."
+    },
+    {
+      "word": "天",
+      "ipa": "tiān",
+      "meaning": "ngày",
+      "example": "今_天_很热。",
+      "examplePinyin": "Jīntiān hěn rè.",
+      "exampleVi": "Hôm nay rất nóng."
+    },
+    {
+      "word": "昨天",
+      "ipa": "zuótiān",
+      "meaning": "hôm qua",
+      "example": "_昨天_我回学校。",
+      "examplePinyin": "Zuótiān wǒ huí xuéxiào.",
+      "exampleVi": "Hôm qua tôi về trường."
+    },
+    {
+      "word": "星期",
+      "ipa": "xīngqī",
+      "meaning": "tuần",
+      "example": "一个_星期_有七天。",
+      "examplePinyin": "Yí ge xīngqī yǒu qī tiān.",
+      "exampleVi": "Một tuần có bảy ngày."
+    },
+    {
+      "word": "星期一",
+      "ipa": "xīngqīyī",
+      "meaning": "thứ hai",
+      "example": "_星期一_我上课。",
+      "examplePinyin": "Xīngqīyī wǒ shàngkè.",
+      "exampleVi": "Thứ hai tôi đi học."
+    },
+    {
+      "word": "星期二",
+      "ipa": "xīngqī èr",
+      "meaning": "thứ ba",
+      "example": "_星期二_见。",
+      "examplePinyin": "Xīngqī'èr jiàn.",
+      "exampleVi": "Hẹn gặp thứ ba."
+    },
+    {
+      "word": "星期三",
+      "ipa": "xīngqī sān",
+      "meaning": "thứ tư",
+      "example": "_星期三_我回家。",
+      "examplePinyin": "Xīngqīsān wǒ huí jiā.",
+      "exampleVi": "Thứ tư tôi về nhà."
+    },
+    {
+      "word": "星期四",
+      "ipa": "xīngqī sì",
+      "meaning": "thứ năm",
+      "example": "_星期四_去学校。",
+      "examplePinyin": "Xīngqīsì qù xuéxiào.",
+      "exampleVi": "Thứ năm đi đến trường."
+    },
+    {
+      "word": "星期五",
+      "ipa": "xīngqī wǔ",
+      "meaning": "thứ sáu",
+      "example": "_星期五_再见。",
+      "examplePinyin": "Xīngqīwǔ zàijiàn.",
+      "exampleVi": "Hẹn gặp lại thứ sáu."
+    },
+    {
+      "word": "星期六",
+      "ipa": "xīngqī liù",
+      "meaning": "thứ bảy",
+      "example": "_星期六_我回家。",
+      "examplePinyin": "Xīngqīliù wǒ huí jiā.",
+      "exampleVi": "Thứ bảy tôi về nhà."
+    },
+    {
+      "word": "星期天",
+      "ipa": "xīngqī tiān",
+      "meaning": "chủ nhật",
+      "example": "_星期天_休息。",
+      "examplePinyin": "Xīngqītiān xiūxi.",
+      "exampleVi": "Chủ nhật nghỉ ngơi."
+    },
+    {
+      "word": "几",
+      "ipa": "jǐ",
+      "meaning": "mấy",
+      "example": "今天星期_几_？",
+      "examplePinyin": "Jīntiān xīngqī jǐ?",
+      "exampleVi": "Hôm nay là thứ mấy?"
+    },
+    {
+      "word": "二",
+      "ipa": "èr",
+      "meaning": "số 2",
+      "example": "我有_二_本书。",
+      "examplePinyin": "Wǒ yǒu èr běn shū.",
+      "exampleVi": "Tôi có hai quyển sách."
+    },
+    {
+      "word": "三",
+      "ipa": "sān",
+      "meaning": "số 3",
+      "example": "现在_三_点。",
+      "examplePinyin": "Xiànzài sān diǎn.",
+      "exampleVi": "Bây giờ là 3 giờ."
+    },
+    {
+      "word": "四",
+      "ipa": "sì",
+      "meaning": "số 4",
+      "example": "我有_四_个朋友。",
+      "examplePinyin": "Wǒ yǒu sì ge péngyou.",
+      "exampleVi": "Tôi có bốn người bạn."
+    },
+    {
+      "word": "哪儿",
+      "ipa": "nǎr",
+      "meaning": "ở đâu",
+      "example": "你去哪儿？",
+      "examplePinyin": "Nǐ qù nǎr?",
+      "exampleVi": "Bạn đi đâu?"
+    },
+    {
+      "word": "那儿",
+      "ipa": "nàr",
+      "meaning": "ở đó",
+      "example": "学校在_那儿_。",
+      "examplePinyin": "Xuéxiào zài nàr.",
+      "exampleVi": "Trường học ở đó."
+    },
+    {
+      "word": "我",
+      "ipa": "wǒ",
+      "meaning": "tôi",
+      "example": "_我_回学校。",
+      "examplePinyin": "Wǒ huí xuéxiào.",
+      "exampleVi": "Tôi về trường."
+    },
+    {
+      "word": "回",
+      "ipa": "huí",
+      "meaning": "về, quay về",
+      "example": "我_回_家。",
+      "examplePinyin": "Wǒ huí jiā.",
+      "exampleVi": "Tôi về nhà."
+    },
+    {
+      "word": "学校",
+      "ipa": "xuéxiào",
+      "meaning": "trường học",
+      "example": "我去_学校_。",
+      "examplePinyin": "Wǒ qù xuéxiào.",
+      "exampleVi": "Tôi đi đến trường."
+    },
+    {
+      "word": "再见",
+      "ipa": "zàijiàn",
+      "meaning": "tạm biệt",
+      "example": "_再见_，明天见。",
+      "examplePinyin": "Zàijiàn, míngtiān jiàn.",
+      "exampleVi": "Tạm biệt, ngày mai gặp."
+    },
+    {
+      "word": "对不起",
+      "ipa": "duìbuqǐ",
+      "meaning": "xin lỗi",
+      "example": "_对不起_，我来晚了。",
+      "examplePinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+      "exampleVi": "Xin lỗi, tôi đến muộn."
+    },
+    {
+      "word": "没关系",
+      "ipa": "méiguānxi",
+      "meaning": "không có gì",
+      "example": "——对不起。——_没关系_。",
+      "examplePinyin": "—Duìbuqǐ. —Méiguānxi.",
+      "exampleVi": "—Xin lỗi. —Không sao."
+    },
+    {
+      "word": "天安门",
+      "ipa": "Tiānānmén",
+      "meaning": "Thiên An Môn",
+      "example": "我去_天安门_。",
+      "examplePinyin": "Wǒ qù Tiānānmén.",
+      "exampleVi": "Tôi đi Thiên An Môn."
+    }
+  ]
+}
