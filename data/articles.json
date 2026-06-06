@@ -47,21 +47,22 @@
     "duration": "25 phút",
     "students": "756"
   },
-  {
-    "id": "lesson-04",
-    "title": "🗓️ Thời gian & Ngày tháng",
-    "titleCN": "时间与日期",
-    "level": "HSK 1",
-    "levelColor": "#86efac",
-    "description": "Học cách nói giờ, ngày, tháng, năm và các từ về thời gian.",
-    "descriptionCN": "学习如何说时、日、月、年和时间相关词汇。",
-    "wordCount": 22,
-    "tags": ["thời gian", "lịch", "ngày tháng"],
-    "image": "📅",
-    "gradient": "linear-gradient(135deg, #c4b5fd 0%, #93c5fd 50%, #a7f3d0 100%)",
-    "dataFile": "lesson-04.json",
-    "duration": "20 phút",
-    "students": "1.1k"
+{
+  "id": "lesson-04",
+  "title": "🍭 Bài 1 Giáo trình Hán ngữ 1",
+  "titleCN": "你好",
+  "level": "HSK 1",
+  "levelColor": "#86efac",
+  "description": "Học các từ vựng cơ bản đầu tiên trong tiếng Trung như đại từ, số đếm và từ chỉ sự vật.",
+  "descriptionCN": "学习最基础的汉语词汇，如代词、数字和常用名词。",
+  "wordCount": 11,
+  "tags": ["HSK 1", "từ vựng cơ bản", "chào hỏi"],
+  "image": "🍭",
+  "gradient": "linear-gradient(135deg, #c4b5fd 0%, #93c5fd 50%, #a7f3d0 100%)",
+  "dataFile": "lesson-04.json",
+  "duration": "15 phút",
+  "students": "1.1k"
+
   },
   {
     "id": "lesson-05",
