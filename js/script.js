@@ -450,7 +450,8 @@ window.checkTestTranslate = function(correct) {
   let inp = document.getElementById('translateInput');
   if(!inp || inp.disabled) return;
   let user = inp.value.trim();
-  let isCorrect = (user === correct);
+  let similarity = sentenceSimilarity(user, correct);
+let isCorrect = similarity >= 0.70;
   inp.disabled = true;
   inp.classList.add(isCorrect ? 't-correct' : 't-wrong');
   playSound(isCorrect);
