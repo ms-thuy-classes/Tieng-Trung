@@ -1,0 +1,100 @@
+```json
+{
+  "id": "lesson-01",
+  "title": "Hán 1 Bài 1",
+  "titleVi": "Từ vựng cơ bản",
+  "level": "HSK 1",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng cơ bản đầu tiên trong tiếng Trung.",
+  "introCN": "在本课中，你将学习最基础的汉语词汇。",
+  "vocab": [
+    {
+      "word": "你",
+      "ipa": "nǐ",
+      "meaning": "bạn, cậu, mày",
+      "example": "_你_好!",
+      "examplePinyin": "Nǐ hǎo!",
+      "exampleVi": "Chào bạn."
+    },
+    {
+      "word": "好",
+      "ipa": "hǎo",
+      "meaning": "tốt, khỏe",
+      "example": "你_好_吗？",
+      "examplePinyin": "Nǐ hǎo ma?",
+      "exampleVi": "Bạn khỏe không?"
+    },
+    {
+      "word": "一",
+      "ipa": "yī",
+      "meaning": "số 1",
+      "example": "_一_个人。",
+      "examplePinyin": "Yí ge rén.",
+      "exampleVi": "Một người."
+    },
+    {
+      "word": "五",
+      "ipa": "wǔ",
+      "meaning": "số 5",
+      "example": "他_五_岁。",
+      "examplePinyin": "Tā wǔ suì.",
+      "exampleVi": "Cậu bé 5 tuổi."
+    },
+    {
+      "word": "八",
+      "ipa": "bā",
+      "meaning": "số 8",
+      "example": "_八_个苹果。",
+      "examplePinyin": "Bā ge píngguǒ.",
+      "exampleVi": "8 quả táo."
+    },
+    {
+      "word": "大",
+      "ipa": "dà",
+      "meaning": "lớn, to",
+      "example": "天很_大_。",
+      "examplePinyin": "Tiān hěn dà.",
+      "exampleVi": "Trời rất rộng lớn."
+    },
+    {
+      "word": "不",
+      "ipa": "bù",
+      "meaning": "không",
+      "example": "我_不_好。",
+      "examplePinyin": "Wǒ bù hǎo.",
+      "exampleVi": "Tôi không khỏe."
+    },
+    {
+      "word": "口",
+      "ipa": "kǒu",
+      "meaning": "miệng",
+      "example": "他的_口_很大。",
+      "examplePinyin": "Tā de kǒu hěn dà.",
+      "exampleVi": "Miệng của anh ta rất rộng."
+    },
+    {
+      "word": "白",
+      "ipa": "bái",
+      "meaning": "trắng",
+      "example": "一只_白_猫。",
+      "examplePinyin": "Yī zhǐ bái māo.",
+      "exampleVi": "Một chú mèo trắng."
+    },
+    {
+      "word": "女",
+      "ipa": "nǚ",
+      "meaning": "con gái, nữ",
+      "example": "她是我的_女_朋友。",
+      "examplePinyin": "Tā shì wǒ de nǚ péngyou.",
+      "exampleVi": "Cô ấy là bạn gái của tôi."
+    },
+    {
+      "word": "马",
+      "ipa": "mǎ",
+      "meaning": "con ngựa",
+      "example": "他家有很多_马_。",
+      "examplePinyin": "Tā jiā yǒu hěnduō mǎ.",
+      "exampleVi": "Nhà anh ấy có rất nhiều ngựa."
+    }
+  ]
+}
+```
