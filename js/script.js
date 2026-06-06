@@ -84,7 +84,59 @@ window.checkListenWord = function(chosen, correct, btn) { if(gameAnswered) retur
 function renderTypingQ(q) { document.getElementById('gameContent').innerHTML = `<div><div class="bg-yellow-50 p-5 rounded-2xl text-center"><p class="font-black text-2xl">${q.meaning}</p><p class="text-sm text-blue-500">${q.ipa}</p></div><input id="typingInput" type="text" placeholder="Nhập chữ Hán..." class="w-full mt-4 p-3 border rounded-2xl"><button onclick="checkTyping('${q.word}')" class="w-full mt-3 py-2 bg-yellow-400 rounded-2xl font-bold">Kiểm tra</button><div id="feedbackArea"></div></div>`; setTimeout(()=>document.getElementById('typingInput')?.focus(),50); }
 window.checkTyping = function(correct) { if(gameAnswered) return; let input = document.getElementById('typingInput'); if(!input) return; let val = input.value.trim(); gameAnswered=true; input.disabled=true; let isCorrect = val === correct; if(isCorrect) gameCorrect++; playSound(isCorrect); showFeedback(isCorrect, gameQuestions[gameCurrentQ]); };
 function renderListenSentenceQ(q) { let sentenceRaw = formatExampleText(q.example); document.getElementById('gameContent').innerHTML = `<div><div class="flex justify-center"><button onclick="speak('${sentenceRaw.replace(/'/g,"\\'")}')" class="w-24 h-24 rounded-full bg-pink-200 flex flex-col items-center justify-center"><span class="text-3xl">🎙️</span><span>Nghe câu</span></button></div><textarea id="sentenceInput" rows="3" placeholder="Gõ lại câu tiếng Trung..." class="w-full mt-4 p-3 border rounded-2xl"></textarea><button onclick="checkSentence('${sentenceRaw.replace(/'/g,"\\'")}')" class="w-full mt-3 py-2 bg-pink-400 rounded-2xl font-bold">Kiểm tra</button><div id="feedbackArea"></div></div>`; setTimeout(()=>speak(sentenceRaw),500); }
-window.checkSentence = function(correctRaw) { if(gameAnswered) return; let input = document.getElementById('sentenceInput'); if(!input) return; let user = input.value.trim(); let isCorrect = (user === correctRaw); gameAnswered=true; if(isCorrect) gameCorrect++; playSound(isCorrect); showFeedback(isCorrect, gameQuestions[gameCurrentQ]); };
+function sentenceSimilarity(a, b) {
+    a = a.trim().replace(/\s+/g, "");
+    b = b.trim().replace(/\s+/g, "");
+
+    const m = a.length;
+    const n = b.length;
+
+    if (m === 0 && n === 0) return 1;
+
+    const dp = Array.from({ length: m + 1 }, () =>
+        Array(n + 1).fill(0)
+    );
+
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+
+            dp[i][j] = Math.min(
+                dp[i - 1][j] + 1,
+                dp[i][j - 1] + 1,
+                dp[i - 1][j - 1] + cost
+            );
+        }
+    }
+
+    const distance = dp[m][n];
+    return 1 - distance / Math.max(m, n);
+}
+
+window.checkSentence = function(correctRaw) {
+    if(gameAnswered) return;
+
+    let input = document.getElementById('sentenceInput');
+    if(!input) return;
+
+    let user = input.value.trim();
+
+    // Tính mức độ giống nhau
+    let similarity = sentenceSimilarity(user, correctRaw);
+
+    // Đúng nếu giống từ 70% trở lên
+    let isCorrect = similarity >= 0.70;
+
+    gameAnswered = true;
+
+    if(isCorrect) gameCorrect++;
+
+    playSound(isCorrect);
+    showFeedback(isCorrect, gameQuestions[gameCurrentQ]);
+};
 function showFeedback(correct, q) { let fb = document.getElementById('feedbackArea'); fb.innerHTML = `<div class="${correct?'feedback-correct':'feedback-wrong'}"><div class="font-bold">${correct?'✓ Chính xác!':'✗ Sai'}</div><div class="font-bold text-base">${q.word} (${q.ipa})</div><div class="text-sm">${q.meaning}</div><div class="italic text-sm mt-1">${formatExampleHTML(q.example)}</div><div class="text-xs text-gray-500">${q.examplePinyin}</div><div class="text-xs">${q.exampleVi}</div><button onclick="nextGameQuestion()" class="mt-2 w-full py-2 bg-purple-500 text-white rounded-xl font-bold">Tiếp theo</button></div>`; }
 function nextGameQuestion() { gameCurrentQ++; if(gameCurrentQ >= gameQuestions.length) showGameSummary(); else renderGameQuestion(); }
 function showGameSummary() { let total = gameQuestions.length; let pct = Math.round((gameCorrect/total)*100); scores[currentGame] = { correct: gameCorrect, total }; localStorage.setItem(`scores_${currentLessonId}`, JSON.stringify(scores)); updateScoreDisplay(); document.getElementById('gameContent').innerHTML = `<div class="text-center"><div class="text-5xl">${pct>=80?'🏆':'😊'}</div><h3 class="font-black text-2xl">Kết quả: ${gameCorrect}/${total} (${pct}%)</h3><div class="w-full h-3 bg-gray-200 rounded-full mt-3"><div style="width:${pct}%" class="h-full bg-purple-500 rounded-full"></div></div><button onclick="closeModal()" class="mt-5 px-6 py-2 bg-purple-500 text-white rounded-full">Đóng</button><button onclick="openGame('${currentGame}')" class="ml-2 px-6 py-2 bg-white border rounded-full">Chơi lại</button></div>`; document.getElementById('gameProgressWrap').style.display = 'block'; document.getElementById('gameProgressBar').style.width='100%'; }
