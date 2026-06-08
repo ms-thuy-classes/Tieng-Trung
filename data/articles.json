@@ -81,6 +81,22 @@
     "students": "643"
   },
   {
+  "id": "lesson-05",
+  "title": "❤️ Tính cách & Cuộc sống",
+  "titleCN": "HSK 4 Bài 1：性格与生活",
+  "level": "HSK 4",
+  "levelColor": "#93c5fd",
+  "description": "Học từ vựng về tính cách, tình cảm, cuộc sống và các mối quan hệ.",
+  "descriptionCN": "学习关于性格、感情、生活和人际关系的词汇。",
+  "wordCount": 19,
+  "tags": ["tính cách", "tình cảm", "cuộc sống"],
+  "image": "❤️",
+  "gradient": "linear-gradient(135deg, #fda4af 0%, #f9a8d4 50%, #c4b5fd 100%)",
+  "dataFile": "lesson-05.json",
+  "duration": "20 phút",
+  "students": "1.2k"
+},
+  {
     "id": "lesson-06",
     "title": "💼 Công việc & Nghề nghiệp",
     "titleCN": "工作与职业",
