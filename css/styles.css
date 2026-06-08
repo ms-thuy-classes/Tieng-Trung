@@ -565,3 +565,24 @@ body {
   border-radius: 99px;
 }
 .hint-pinyin-text.show { display: inline-block; }
+/* To toàn bộ chữ trong Practice */
+#gameContent {
+  font-size: 1.5rem !important;
+  line-height: 1.8;
+}
+
+/* To tất cả tiêu đề câu hỏi */
+#gameContent * {
+  font-size: inherit;
+}
+
+/* Câu hỏi */
+#gameContent h1,
+#gameContent h2,
+#gameContent h3,
+#gameContent h4,
+#gameContent p {
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+}
+
