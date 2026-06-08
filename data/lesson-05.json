@@ -1,1 +1,163 @@
 
+{
+  "id": "lesson-04",
+  "title": "HSK 4 Bài 1",
+  "titleVi": "Tính cách và cuộc sống",
+  "level": "HSK 4",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng về tính cách, tình cảm và cuộc sống.",
+  "introCN": "在本课中，你将学习关于性格、感情和生活的词汇。",
+  "vocab": [
+    {
+      "word": "法律",
+      "ipa": "fǎlǜ",
+      "meaning": "pháp luật",
+      "example": "我哥哥学的是_法律_。",
+      "examplePinyin": "Wǒ gēge xué de shì fǎlǜ.",
+      "exampleVi": "Anh trai tôi học luật."
+    },
+    {
+      "word": "俩",
+      "ipa": "liǎ",
+      "meaning": "hai",
+      "example": "我们_俩_都是中国人。",
+      "examplePinyin": "Wǒmen liǎ dōu shì Zhōngguó rén.",
+      "exampleVi": "Hai chúng tôi đều là người Trung Quốc."
+    },
+    {
+      "word": "印象",
+      "ipa": "yìnxiàng",
+      "meaning": "ấn tượng",
+      "example": "我对他_印象_很深。",
+      "examplePinyin": "Wǒ duì tā yìnxiàng hěn shēn.",
+      "exampleVi": "Tôi có ấn tượng rất sâu sắc về anh ấy."
+    },
+    {
+      "word": "深",
+      "ipa": "shēn",
+      "meaning": "sâu sắc",
+      "example": "他给我留下了很_深_的印象。",
+      "examplePinyin": "Tā gěi wǒ liú xiàle hěn shēn de yìnxiàng.",
+      "exampleVi": "Anh ấy để lại cho tôi một ấn tượng sâu sắc."
+    },
+    {
+      "word": "熟悉",
+      "ipa": "shúxī",
+      "meaning": "hiểu rõ, quen thuộc",
+      "example": "我对这个地方很_熟悉_。",
+      "examplePinyin": "Wǒ duì zhège dìfāng hěn shúxī.",
+      "exampleVi": "Tôi rất hiểu rõ nơi này."
+    },
+    {
+      "word": "不仅",
+      "ipa": "bùjǐn",
+      "meaning": "không những, chẳng những",
+      "example": "她_不仅_钢琴弹得好，性格也不错。",
+      "examplePinyin": "Tā bùjǐn gāngqín dàn de hǎo, xìnggé yě bùcuò.",
+      "exampleVi": "Cô ấy không những đánh piano giỏi mà tính cách cũng tốt."
+    },
+    {
+      "word": "性格",
+      "ipa": "xìnggé",
+      "meaning": "tính cách",
+      "example": "我的_性格_跟爸爸的一样。",
+      "examplePinyin": "Wǒ de xìnggé gēn bàba de yīyàng.",
+      "exampleVi": "Tính cách của tôi giống bố."
+    },
+    {
+      "word": "开玩笑",
+      "ipa": "kāiwánxiào",
+      "meaning": "nói đùa, đùa",
+      "example": "我只是_开玩笑_而已。",
+      "examplePinyin": "Wǒ zhǐshì kāiwánxiào éryǐ.",
+      "exampleVi": "Tôi chỉ nói đùa thôi."
+    },
+    {
+      "word": "从来",
+      "ipa": "cónglái",
+      "meaning": "từ trước đến giờ",
+      "example": "她_从来_不失信。",
+      "examplePinyin": "Tā cónglái bù shīxìn.",
+      "exampleVi": "Cô ấy chưa từng thất hứa."
+    },
+    {
+      "word": "最好",
+      "ipa": "zuì hǎo",
+      "meaning": "tốt nhất",
+      "example": "你_最好_要努力学习。",
+      "examplePinyin": "Nǐ zuì hǎo yào nǔlì xuéxí.",
+      "exampleVi": "Bạn tốt nhất nên chăm chỉ học tập."
+    },
+    {
+      "word": "共同",
+      "ipa": "gòngtóng",
+      "meaning": "chung, cùng",
+      "example": "跑步是我们_共同_的爱好。",
+      "examplePinyin": "Pǎobù shì wǒmen gòngtóng de àihào.",
+      "exampleVi": "Chạy bộ là sở thích chung của chúng tôi."
+    },
+    {
+      "word": "适合",
+      "ipa": "shìhé",
+      "meaning": "phù hợp",
+      "example": "这件羽绒服很_适合_你。",
+      "examplePinyin": "Zhè jiàn yǔróngfú hěn shìhé nǐ.",
+      "exampleVi": "Chiếc áo lông vũ này rất hợp với bạn."
+    },
+    {
+      "word": "幸福",
+      "ipa": "xìngfú",
+      "meaning": "hạnh phúc",
+      "example": "祝你们_幸福_。",
+      "examplePinyin": "Zhù nǐmen xìngfú.",
+      "exampleVi": "Chúc các bạn hạnh phúc."
+    },
+    {
+      "word": "生活",
+      "ipa": "shēnghuó",
+      "meaning": "cuộc sống, sống",
+      "example": "我们在河内_生活_。",
+      "examplePinyin": "Wǒmen zài Hénèi shēnghuó.",
+      "exampleVi": "Chúng tôi sống ở Hà Nội."
+    },
+    {
+      "word": "刚",
+      "ipa": "gāng",
+      "meaning": "vừa, vừa mới",
+      "example": "他_刚_从省里回来。",
+      "examplePinyin": "Tā gāng cóng shěng lǐ huílái.",
+      "exampleVi": "Anh ấy vừa từ tỉnh về."
+    },
+    {
+      "word": "浪漫",
+      "ipa": "làngmàn",
+      "meaning": "lãng mạn",
+      "example": "真正的爱情不需要_浪漫_。",
+      "examplePinyin": "Zhēnzhèng de àiqíng bù xūyào làngmàn.",
+      "exampleVi": "Tình yêu đích thực không cần sự lãng mạn."
+    },
+    {
+      "word": "够",
+      "ipa": "gòu",
+      "meaning": "đủ",
+      "example": "_够_了，我生气了啊。",
+      "examplePinyin": "Gòule, wǒ shēngqì le a.",
+      "exampleVi": "Đủ rồi, tôi tức giận rồi đó."
+    },
+    {
+      "word": "缺点",
+      "ipa": "quēdiǎn",
+      "meaning": "khuyết điểm, thiếu sót",
+      "example": "谁都有自己的_缺点_。",
+      "examplePinyin": "Shéi dōu yǒu zìjǐ de quēdiǎn.",
+      "exampleVi": "Ai cũng có khuyết điểm riêng."
+    },
+    {
+      "word": "接受",
+      "ipa": "jiēshòu",
+      "meaning": "chấp nhận",
+      "example": "他的性格，我真的_接受_不了。",
+      "examplePinyin": "Tā de xìnggé, wǒ zhēn de jiēshòu bùliǎo.",
+      "exampleVi": "Tôi thật sự không thể chấp nhận tính cách của anh ấy."
+    }
+  ]
+}
