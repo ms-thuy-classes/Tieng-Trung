@@ -309,49 +309,67 @@ body {
 
 .test-card {
   background: white;
-  border-radius: 24px;
-  box-shadow: 0 8px 32px rgba(167,139,250,0.1);
-  padding: 28px 24px;
+  border-radius: 30px;
+  box-shadow: 0 12px 40px rgba(167,139,250,0.15);
+  padding: 40px 36px;
   margin: 0 auto;
-  max-width: 680px;
-  width: 100%;
+  max-width: 1000px;
+  width: 95%;
 }
 
-.test-q-badge {
-  display: inline-block;
-  font-size: 0.7rem;
+.test-question {
+  font-size: 2rem;
+  line-height: 1.6;
   font-weight: 800;
-  padding: 4px 12px;
-  border-radius: 99px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
-.badge-mc { background: #ede9fe; color: #6d28d9; }
-.badge-sort { background: #fef3c7; color: #92400e; }
-.badge-translate { background: #dcfce7; color: #166534; }
-
 .test-opt {
   width: 100%;
   text-align: left;
-  padding: 13px 18px;
-  border-radius: 14px;
+  padding: 22px 28px;
+  border-radius: 18px;
   border: 2px solid #e5e7eb;
   background: #f9fafb;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.18s ease;
   font-family: 'Nunito', 'Noto Sans SC', sans-serif;
   color: #3b3b5c;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
+}
+.test-q-badge {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 8px 18px;
+  border-radius: 99px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .test-opt:hover:not(:disabled) { border-color: #a78bfa; background: #f5f3ff; }
 .test-opt.t-correct { background: linear-gradient(135deg,#d1fae5,#a7f3d0)!important; border-color: #34d399!important; color: #065f46!important; pointer-events:none; }
 .test-opt.t-wrong   { background: linear-gradient(135deg,#fee2e2,#fecaca)!important; border-color: #f87171!important; color: #7f1d1d!important; pointer-events:none; }
 .test-opt:disabled  { cursor: default; }
+@media (max-width: 768px) {
+  .test-card {
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 24px;
+  }
 
+  #testQuestion,
+  .test-question {
+    font-size: 1.6rem;
+  }
+
+  .test-opt {
+    font-size: 1.25rem;
+    padding: 18px 20px;
+  }
+}
 /* Sort question */
 .sort-pool {
   display: flex;
