@@ -18,7 +18,7 @@
   {
     "id": "lesson-02",
     "title": "Bài 2 Hán ngữ 1: 明天见 ",
-    "titleCN": "明天见 ",
+    "titleCN": "Hán 1 Bài 2: 明天见 ",
     "level": "HSK 1",
     "levelColor": "#86efac",
     "description": "Từ vựng về ngôn ngữ Trung Quốc và cách sử dụng.",
@@ -50,7 +50,7 @@
 {
   "id": "lesson-04",
   "title": "🍭 Bài 1 Giáo trình Hán ngữ 1",
-  "titleCN": "Hán 1 Bài 1 :: 你好",
+  "titleCN": "Hán 1 Bài 1: 你好",
   "level": "HSK 1",
   "levelColor": "#86efac",
   "description": "Học các từ vựng cơ bản đầu tiên trong tiếng Trung như đại từ, số đếm và từ chỉ sự vật.",
@@ -63,22 +63,6 @@
   "duration": "15 phút",
   "students": "1.1k"
 
-  },
-  {
-    "id": "lesson-05",
-    "title": "🏙️ Chỉ đường & Địa điểm",
-    "titleCN": "问路与地点",
-    "level": "HSK 2",
-    "levelColor": "#93c5fd",
-    "description": "Cách hỏi và chỉ đường, tên các địa điểm phổ biến trong thành phố.",
-    "descriptionCN": "如何问路和指路，城市中常见地点的名称。",
-    "wordCount": 26,
-    "tags": ["địa điểm", "chỉ đường", "thành phố"],
-    "image": "🗺️",
-    "gradient": "linear-gradient(135deg, #fca5a5 0%, #f9a8d4 50%, #c4b5fd 100%)",
-    "dataFile": "lesson-05.json",
-    "duration": "22 phút",
-    "students": "643"
   },
   {
   "id": "lesson-05",
@@ -99,13 +83,13 @@
   {
     "id": "lesson-06",
     "title": "🤝Người bạn chân chính",
-    "titleCN": "真正的朋友",
+    "titleCN": "HSK 4 bài 2: 真正的朋友",
     "level": "HSK 4",
     "levelColor": "#fde68a",
     "description": "Trong bài học này, bạn sẽ học các từ vựng về tình bạn, cuộc sống, giao tiếp và các mối quan hệ.",
     "descriptionCN": "在本课中，你将学习关于友谊、生活、交流和人际关系的词汇",
     "wordCount": 30,
-    "tags": ["công việc", "nghề nghiệp", "văn phòng"],
+    "tags": ["tình bạn", "nghề nghiệp"],
     "image": "🤝",
     "gradient": "linear-gradient(135deg, #fde68a 0%, #86efac 50%, #6ee7b7 100%)",
     "dataFile": "lesson-06.json",
