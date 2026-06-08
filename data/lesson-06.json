@@ -1,0 +1,482 @@
+{
+  "id": "lesson-06",
+  "title": "HSK 4 Bài 2",
+  "titleVi": "Tình bạn và cuộc sống",
+  "level": "HSK 4",
+  "intro": "Trong bài học này, bạn sẽ học các từ vựng về tình bạn, cuộc sống, giao tiếp và các mối quan hệ.",
+  "introCN": "在本课中，你将学习关于友谊、生活、交流和人际关系的词汇。",
+  "vocab": [
+    {
+      "word": "羡慕",
+      "ipa": "xiànmù",
+      "meaning": "ngưỡng mộ",
+      "example": "我很_羡慕_他。",
+      "examplePinyin": "Wǒ hěn xiànmù tā.",
+      "exampleVi": "Tôi rất ngưỡng mộ anh ấy."
+    },
+    {
+      "word": "星星",
+      "ipa": "xīngxing",
+      "meaning": "ngôi sao",
+      "example": "天上有很多_星星_。",
+      "examplePinyin": "Tiān shàng yǒu hěn duō xīngxing.",
+      "exampleVi": "Trên trời có rất nhiều ngôi sao."
+    },
+    {
+      "word": "适应",
+      "ipa": "shìyìng",
+      "meaning": "thích ứng, thích nghi",
+      "example": "我已经_适应_这里的生活了。",
+      "examplePinyin": "Wǒ yǐjīng shìyìng zhèlǐ de shēnghuó le.",
+      "exampleVi": "Tôi đã thích nghi với cuộc sống ở đây."
+    },
+    {
+      "word": "交",
+      "ipa": "jiāo",
+      "meaning": "kết giao, qua lại",
+      "example": "我喜欢_交_朋友。",
+      "examplePinyin": "Wǒ xǐhuān jiāo péngyou.",
+      "exampleVi": "Tôi thích kết bạn."
+    },
+    {
+      "word": "平时",
+      "ipa": "píngshí",
+      "meaning": "ngày thường",
+      "example": "_平时_我喜欢看书。",
+      "examplePinyin": "Píngshí wǒ xǐhuān kàn shū.",
+      "exampleVi": "Ngày thường tôi thích đọc sách."
+    },
+    {
+      "word": "逛",
+      "ipa": "guàng",
+      "meaning": "đi dạo",
+      "example": "周末我喜欢去商场_逛_。",
+      "examplePinyin": "Zhōumò wǒ xǐhuān qù shāngchǎng guàng.",
+      "exampleVi": "Cuối tuần tôi thích đi dạo trung tâm thương mại."
+    },
+    {
+      "word": "短信",
+      "ipa": "duǎnxìn",
+      "meaning": "tin nhắn",
+      "example": "我给你发了一条_短信_。",
+      "examplePinyin": "Wǒ gěi nǐ fā le yì tiáo duǎnxìn.",
+      "exampleVi": "Tôi đã gửi cho bạn một tin nhắn."
+    },
+    {
+      "word": "正好",
+      "ipa": "zhènghǎo",
+      "meaning": "vừa đúng lúc",
+      "example": "你来得_正好_。",
+      "examplePinyin": "Nǐ lái de zhènghǎo.",
+      "exampleVi": "Bạn đến đúng lúc."
+    },
+    {
+      "word": "生活",
+      "ipa": "shēnghuó",
+      "meaning": "cuộc sống",
+      "example": "我的_生活_很快乐。",
+      "examplePinyin": "Wǒ de shēnghuó hěn kuàilè.",
+      "exampleVi": "Cuộc sống của tôi rất vui vẻ."
+    },
+    {
+      "word": "开始",
+      "ipa": "kāishǐ",
+      "meaning": "bắt đầu",
+      "example": "我们现在_开始_上课。",
+      "examplePinyin": "Wǒmen xiànzài kāishǐ shàngkè.",
+      "exampleVi": "Chúng ta bắt đầu học bây giờ."
+    },
+    {
+      "word": "习惯",
+      "ipa": "xíguàn",
+      "meaning": "thói quen",
+      "example": "这是我的_习惯_。",
+      "examplePinyin": "Zhè shì wǒ de xíguàn.",
+      "exampleVi": "Đây là thói quen của tôi."
+    },
+    {
+      "word": "认识",
+      "ipa": "rènshi",
+      "meaning": "quen biết",
+      "example": "我认识他三年了。",
+      "examplePinyin": "Wǒ rènshi tā sān nián le.",
+      "exampleVi": "Tôi quen anh ấy được ba năm rồi."
+    },
+    {
+      "word": "常常",
+      "ipa": "chángcháng",
+      "meaning": "thường xuyên",
+      "example": "我_常常_去图书馆。",
+      "examplePinyin": "Wǒ chángcháng qù túshūguǎn.",
+      "exampleVi": "Tôi thường xuyên đến thư viện."
+    },
+    {
+      "word": "踢足球",
+      "ipa": "tī zúqiú",
+      "meaning": "đá bóng",
+      "example": "他喜欢_踢足球_。",
+      "examplePinyin": "Tā xǐhuān tī zúqiú.",
+      "exampleVi": "Anh ấy thích đá bóng."
+    },
+    {
+      "word": "需要",
+      "ipa": "xūyào",
+      "meaning": "cần",
+      "example": "我_需要_你的帮助。",
+      "examplePinyin": "Wǒ xūyào nǐ de bāngzhù.",
+      "exampleVi": "Tôi cần sự giúp đỡ của bạn."
+    },
+    {
+      "word": "聚会",
+      "ipa": "jùhuì",
+      "meaning": "tụ tập, gặp gỡ",
+      "example": "今天晚上有一个_聚会_。",
+      "examplePinyin": "Jīntiān wǎnshang yǒu yí ge jùhuì.",
+      "exampleVi": "Tối nay có một buổi gặp mặt."
+    },
+    {
+      "word": "星期天",
+      "ipa": "xīngqītiān",
+      "meaning": "chủ nhật",
+      "example": "_星期天_我们一起去玩。",
+      "examplePinyin": "Xīngqītiān wǒmen yìqǐ qù wán.",
+      "exampleVi": "Chủ nhật chúng tôi cùng đi chơi."
+    },
+    {
+      "word": "联系",
+      "ipa": "liánxì",
+      "meaning": "liên hệ",
+      "example": "请跟我_联系_。",
+      "examplePinyin": "Qǐng gēn wǒ liánxì.",
+      "exampleVi": "Xin hãy liên hệ với tôi."
+    },
+    {
+      "word": "差不多",
+      "ipa": "chàbuduō",
+      "meaning": "gần như, xấp xỉ",
+      "example": "我们_差不多_到了。",
+      "examplePinyin": "Wǒmen chàbuduō dào le.",
+      "exampleVi": "Chúng tôi gần đến nơi rồi."
+    },
+    {
+      "word": "毕业",
+      "ipa": "bìyè",
+      "meaning": "tốt nghiệp",
+      "example": "我去年大学_毕业_。",
+      "examplePinyin": "Wǒ qùnián dàxué bìyè.",
+      "exampleVi": "Tôi tốt nghiệp đại học năm ngoái."
+    },
+  {
+  "word": "地铁站",
+  "ipa": "dìtiě zhàn",
+  "meaning": "ga tàu điện ngầm",
+  "example": "地铁站离学校很近。",
+  "examplePinyin": "Dìtiě zhàn lí xuéxiào hěn jìn.",
+  "exampleVi": "Ga tàu điện ngầm rất gần trường học."
+},
+{
+  "word": "麻烦",
+  "ipa": "máfan",
+  "meaning": "phiền phức, làm phiền",
+  "example": "对不起，麻烦你了。",
+  "examplePinyin": "Duìbuqǐ, máfan nǐ le.",
+  "exampleVi": "Xin lỗi đã làm phiền bạn."
+},
+{
+  "word": "参加",
+  "ipa": "cānjiā",
+  "meaning": "tham gia",
+  "example": "我想参加这个活动。",
+  "examplePinyin": "Wǒ xiǎng cānjiā zhège huódòng.",
+  "exampleVi": "Tôi muốn tham gia hoạt động này."
+},
+{
+  "word": "饭店",
+  "ipa": "fàndiàn",
+  "meaning": "nhà hàng",
+  "example": "我们去饭店吃饭吧。",
+  "examplePinyin": "Wǒmen qù fàndiàn chīfàn ba.",
+  "exampleVi": "Chúng ta đi nhà hàng ăn cơm nhé."
+},
+{
+  "word": "迟到",
+  "ipa": "chídào",
+  "meaning": "đến muộn",
+  "example": "他今天迟到了。",
+  "examplePinyin": "Tā jīntiān chídào le.",
+  "exampleVi": "Hôm nay anh ấy đến muộn."
+},
+{
+  "word": "段",
+  "ipa": "duàn",
+  "meaning": "đoạn, mẩu",
+  "example": "请读这一段课文。",
+  "examplePinyin": "Qǐng dú zhè yí duàn kèwén.",
+  "exampleVi": "Hãy đọc đoạn văn này."
+},
+{
+  "word": "好像",
+  "ipa": "hǎoxiàng",
+  "meaning": "hình như, giống như",
+  "example": "他好像不高兴。",
+  "examplePinyin": "Tā hǎoxiàng bù gāoxìng.",
+  "exampleVi": "Hình như anh ấy không vui."
+},
+{
+  "word": "校园",
+  "ipa": "xiàoyuán",
+  "meaning": "khuôn viên trường",
+  "example": "我们的校园很漂亮。",
+  "examplePinyin": "Wǒmen de xiàoyuán hěn piàoliang.",
+  "exampleVi": "Khuôn viên trường chúng tôi rất đẹp."
+},
+{
+  "word": "当然",
+  "ipa": "dāngrán",
+  "meaning": "đương nhiên",
+  "example": "当然可以。",
+  "examplePinyin": "Dāngrán kěyǐ.",
+  "exampleVi": "Đương nhiên là được."
+},
+{
+  "word": "尽管",
+  "ipa": "jǐnguǎn",
+  "meaning": "mặc dù",
+  "example": "尽管很累，他还是工作。",
+  "examplePinyin": "Jǐnguǎn hěn lèi, tā háishi gōngzuò.",
+  "exampleVi": "Mặc dù rất mệt nhưng anh ấy vẫn làm việc."
+},
+{
+  "word": "经常",
+  "ipa": "jīngcháng",
+  "meaning": "thường xuyên",
+  "example": "我经常去图书馆。",
+  "examplePinyin": "Wǒ jīngcháng qù túshūguǎn.",
+  "exampleVi": "Tôi thường xuyên đến thư viện."
+},
+{
+  "word": "真正",
+  "ipa": "zhēnzhèng",
+  "meaning": "chân chính, thật sự",
+  "example": "他是真正的朋友。",
+  "examplePinyin": "Tā shì zhēnzhèng de péngyou.",
+  "exampleVi": "Anh ấy là một người bạn chân chính."
+},
+{
+  "word": "容易",
+  "ipa": "róngyì",
+  "meaning": "dễ dàng",
+  "example": "这道题很容易。",
+  "examplePinyin": "Zhè dào tí hěn róngyì.",
+  "exampleVi": "Câu hỏi này rất dễ."
+},
+{
+  "word": "友谊",
+  "ipa": "yǒuyì",
+  "meaning": "tình bạn",
+  "example": "我们的友谊很深。",
+  "examplePinyin": "Wǒmen de yǒuyì hěn shēn.",
+  "exampleVi": "Tình bạn của chúng tôi rất sâu sắc."
+},
+{
+  "word": "丰富",
+  "ipa": "fēngfù",
+  "meaning": "phong phú",
+  "example": "他的经验很丰富。",
+  "examplePinyin": "Tā de jīngyàn hěn fēngfù.",
+  "exampleVi": "Kinh nghiệm của anh ấy rất phong phú."
+},
+{
+  "word": "无聊",
+  "ipa": "wúliáo",
+  "meaning": "nhàm chán",
+  "example": "这个节目很无聊。",
+  "examplePinyin": "Zhège jiémù hěn wúliáo.",
+  "exampleVi": "Chương trình này rất nhàm chán."
+},
+{
+  "word": "脾气",
+  "ipa": "píqi",
+  "meaning": "tính khí",
+  "example": "他的脾气很好。",
+  "examplePinyin": "Tā de píqi hěn hǎo.",
+  "exampleVi": "Tính khí của anh ấy rất tốt."
+},
+{
+  "word": "讨厌",
+  "ipa": "tǎoyàn",
+  "meaning": "ghét",
+  "example": "我讨厌下雨天。",
+  "examplePinyin": "Wǒ tǎoyàn xiàyǔtiān.",
+  "exampleVi": "Tôi ghét những ngày mưa."
+},
+{
+  "word": "却",
+  "ipa": "què",
+  "meaning": "nhưng lại",
+  "example": "他很累，却继续工作。",
+  "examplePinyin": "Tā hěn lèi, què jìxù gōngzuò.",
+  "exampleVi": "Anh ấy rất mệt nhưng vẫn tiếp tục làm việc."
+},
+{
+  "word": "总是",
+  "ipa": "zǒngshì",
+  "meaning": "luôn luôn",
+  "example": "他总是帮助别人。",
+  "examplePinyin": "Tā zǒngshì bāngzhù biérén.",
+  "exampleVi": "Anh ấy luôn giúp đỡ người khác."
+},
+{
+  "word": "生气",
+  "ipa": "shēngqì",
+  "meaning": "tức giận",
+  "example": "不要生气。",
+  "examplePinyin": "Búyào shēngqì.",
+  "exampleVi": "Đừng tức giận."
+},
+{
+  "word": "周围",
+  "ipa": "zhōuwéi",
+  "meaning": "xung quanh",
+  "example": "学校周围有很多商店。",
+  "examplePinyin": "Xuéxiào zhōuwéi yǒu hěn duō shāngdiàn.",
+  "exampleVi": "Xung quanh trường có rất nhiều cửa hàng."
+},
+{
+  "word": "交流",
+  "ipa": "jiāoliú",
+  "meaning": "giao lưu, trao đổi",
+  "example": "我们经常交流学习经验。",
+  "examplePinyin": "Wǒmen jīngcháng jiāoliú xuéxí jīngyàn.",
+  "exampleVi": "Chúng tôi thường xuyên trao đổi kinh nghiệm học tập."
+},
+{
+  "word": "互相",
+  "ipa": "hùxiāng",
+  "meaning": "lẫn nhau",
+  "example": "朋友应该互相帮助。",
+  "examplePinyin": "Péngyou yīnggāi hùxiāng bāngzhù.",
+  "exampleVi": "Bạn bè nên giúp đỡ lẫn nhau."
+},
+{
+  "word": "如果",
+  "ipa": "rúguǒ",
+  "meaning": "nếu",
+  "example": "如果有时间，我会去。",
+  "examplePinyin": "Rúguǒ yǒu shíjiān, wǒ huì qù.",
+  "exampleVi": "Nếu có thời gian, tôi sẽ đi."
+},
+{
+  "word": "或者",
+  "ipa": "huòzhě",
+  "meaning": "hoặc",
+  "example": "你喝茶或者咖啡？",
+  "examplePinyin": "Nǐ hē chá huòzhě kāfēi?",
+  "exampleVi": "Bạn uống trà hay cà phê?"
+},
+{
+  "word": "更",
+  "ipa": "gèng",
+  "meaning": "càng hơn",
+  "example": "我希望自己更努力。",
+  "examplePinyin": "Wǒ xīwàng zìjǐ gèng nǔlì.",
+  "exampleVi": "Tôi hy vọng bản thân cố gắng hơn nữa."
+},
+{
+  "word": "而且",
+  "ipa": "érqiě",
+  "meaning": "hơn nữa, mà còn",
+  "example": "他聪明，而且努力。",
+  "examplePinyin": "Tā cōngming, érqiě nǔlì.",
+  "exampleVi": "Anh ấy thông minh mà còn chăm chỉ."
+},
+{
+  "word": "必须",
+  "ipa": "bìxū",
+  "meaning": "phải, cần phải",
+  "example": "你必须完成作业。",
+  "examplePinyin": "Nǐ bìxū wánchéng zuòyè.",
+  "exampleVi": "Bạn phải hoàn thành bài tập."
+},
+{
+  "word": "理解",
+  "ipa": "lǐjiě",
+  "meaning": "hiểu",
+  "example": "谢谢你的理解。",
+  "examplePinyin": "Xièxie nǐ de lǐjiě.",
+  "exampleVi": "Cảm ơn sự thấu hiểu của bạn."
+},
+{
+  "word": "应该",
+  "ipa": "yīnggāi",
+  "meaning": "nên",
+  "example": "我们应该尊重别人。",
+  "examplePinyin": "Wǒmen yīnggāi zūnzhòng biérén.",
+  "exampleVi": "Chúng ta nên tôn trọng người khác."
+},
+{
+  "word": "自己",
+  "ipa": "zìjǐ",
+  "meaning": "bản thân",
+  "example": "自己的事情自己做。",
+  "examplePinyin": "Zìjǐ de shìqíng zìjǐ zuò.",
+  "exampleVi": "Việc của mình tự làm."
+},
+{
+  "word": "陪",
+  "ipa": "péi",
+  "meaning": "ở cùng, đồng hành",
+  "example": "妈妈陪我去医院。",
+  "examplePinyin": "Māma péi wǒ qù yīyuàn.",
+  "exampleVi": "Mẹ đi cùng tôi đến bệnh viện."
+},
+{
+  "word": "身边",
+  "ipa": "shēnbiān",
+  "meaning": "bên cạnh",
+  "example": "朋友一直在我身边。",
+  "examplePinyin": "Péngyou yìzhí zài wǒ shēnbiān.",
+  "exampleVi": "Bạn bè luôn ở bên cạnh tôi."
+},
+{
+  "word": "幸福",
+  "ipa": "xìngfú",
+  "meaning": "hạnh phúc",
+  "example": "祝你幸福。",
+  "examplePinyin": "Zhù nǐ xìngfú.",
+  "exampleVi": "Chúc bạn hạnh phúc."
+},
+{
+  "word": "及时",
+  "ipa": "jíshí",
+  "meaning": "kịp thời",
+  "example": "谢谢你的及时帮助。",
+  "examplePinyin": "Xièxie nǐ de jíshí bāngzhù.",
+  "exampleVi": "Cảm ơn sự giúp đỡ kịp thời của bạn."
+},
+{
+  "word": "困难",
+  "ipa": "kùnnan",
+  "meaning": "khó khăn",
+  "example": "我们克服了很多困难。",
+  "examplePinyin": "Wǒmen kèfú le hěn duō kùnnan.",
+  "exampleVi": "Chúng tôi đã vượt qua rất nhiều khó khăn."
+},
+{
+  "word": "镜子",
+  "ipa": "jìngzi",
+  "meaning": "cái gương",
+  "example": "镜子在桌子上。",
+  "examplePinyin": "Jìngzi zài zhuōzi shàng.",
+  "exampleVi": "Cái gương ở trên bàn."
+},
+{
+  "word": "缺点",
+  "ipa": "quēdiǎn",
+  "meaning": "khuyết điểm",
+  "example": "每个人都有缺点。",
+  "examplePinyin": "Měi gèrén dōu yǒu quēdiǎn.",
+  "exampleVi": "Ai cũng có khuyết điểm."
+}
+  ]
+}
