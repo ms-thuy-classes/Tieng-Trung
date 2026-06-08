@@ -578,6 +578,7 @@ body {
 /* To tất cả tiêu đề câu hỏi */
 #gameContent * {
   font-size: inherit;
+  line-height: 1.7; 
 }
 
 /* Câu hỏi */
