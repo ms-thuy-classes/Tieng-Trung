@@ -172,7 +172,7 @@ body {
   border-radius: 20px;
   padding: 24px;
   font-size: 1.3rem;
-  line-height: 2;
+  line-height: 2.5;
   font-weight: 700; 
   animation: popIn 0.3s ease;
 }
@@ -184,7 +184,7 @@ body {
   border-radius: 20px;
   padding: 24px;
   font-size: 1.3rem;
-  line-height: 2;
+  line-height: 2.5;
   font-weight: 700;
   animation: shake 0.4s ease;
 }
@@ -380,8 +380,10 @@ body {
     padding: 18px;
   }
 
-  .feedback-correct,
-  .feedback-wrong,
+  .feedback-correct {font-size: 1.15rem;
+    line-height: 2.2;} 
+  .feedback-wrong {font-size: 1.15rem;
+    line-height: 2.2;} 
   .summary-card {
     font-size: 1.15rem;
   }
