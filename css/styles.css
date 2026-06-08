@@ -567,8 +567,8 @@ body {
 .hint-pinyin-text.show { display: inline-block; }
 /* To toàn bộ chữ trong Practice */
 #gameContent {
-  font-size: 1.5rem !important;
-  line-height: 1.8;
+  font-size: 1.2rem !important;
+  line-height: 2.2;
 }
 
 /* To tất cả tiêu đề câu hỏi */
@@ -582,7 +582,7 @@ body {
 #gameContent h3,
 #gameContent h4,
 #gameContent p {
-  font-size: 2rem !important;
+  font-size: 1.2rem !important;
   font-weight: 800 !important;
 }
 
